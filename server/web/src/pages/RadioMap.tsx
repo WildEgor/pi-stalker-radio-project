@@ -66,7 +66,7 @@ const RadioMap = () => {
     return (
         <div className="h-screen w-screen overflow-hidden relative">
             <div className="py-6 text-center">
-                <h1 className="text-5xl font-bold">Stalker</h1>
+                <h1 className="text-5xl font-bold">...</h1>
             </div>
             <Button
                 variant={"unstyled"}

@@ -39,7 +39,7 @@ const Player = () => {
         <div className="flex-1 grid grid-cols-3 border-t border-primary px-3 gap-3">
           <div className="flex items-center gap-1 overflow-hidden">
             <img
-              className="h-12 w-12 rounded-full object-cover object-center animate-spin-slow"
+              className={`h-12 w-12 rounded-full object-cover object-center ${playing ? "animate-spin-slow" : ""}`}
               src={
                 track?.favicon
                   ? track.favicon
