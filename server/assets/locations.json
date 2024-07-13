@@ -1,0 +1,27 @@
+[
+  {
+    "id": "0",
+    "name": "Деревня новичков",
+    "x": 2560,
+    "y": 6585,
+    "features": [
+      {
+        "type": "playlist",
+        "properties": [
+          {
+            "id": "0",
+            "name": "90s",
+            "url": "https://orf-live.ors-shoutcast.at/oe3-q2a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "name": "КПП",
+    "x": 512,
+    "y": 1317,
+    "features": []
+  }
+]

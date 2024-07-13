@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  dockerpi:
+    image: lukechilds/dockerpi
+    volumes:
+      - ./data:/sdcard
+      - ./scripts:/scripts
+    ports:
+      - "8083:8080"
+      - "83:80"

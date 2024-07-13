@@ -1,0 +1,10 @@
+POST {{api}}/rpc
+cache-control: no-cache
+content-type: application/json
+
+{
+  "method": "HealthService.Check",
+  "params": [{
+    "id": 1
+  }]
+}

@@ -1,0 +1,9 @@
+POST {{api}}/rpc
+cache-control: no-cache
+content-type: application/json
+
+{
+  "method": "LocationService.GetLocations",
+  "params": [],
+  "id": 1
+}
